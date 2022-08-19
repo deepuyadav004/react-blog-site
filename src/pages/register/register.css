@@ -1,48 +1,48 @@
-.login {
+.register {
     height: calc(100vh - 50px);
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("https://img.freepik.com/free-photo/composition-with-plate-alarm-clock-measuring-tape-colored-background-diet-concept-weight-loss-plan-copy-space_127032-2223.jpg?w=360");
+    background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("https://img.freepik.com/premium-photo/top-view-desktop-with-notebook-laptop_23-2148443732.jpg?w=2000");
     background-size: cover;
 }
 
-.loginTitle {
+.registerTitle {
     font-size: 50px;
 }
 
-.loginForm {
+.registerForm {
     margin-top: 20px;
     display: flex;
     flex-direction: column;
 }
 
-.loginForm > label {
+.registerForm > label {
     margin: 10px 0;
 }
 
-.loginInput {
+.registerInput {
     padding: 10px;
     background-color: white;
     border: none;
 }
 
-.loginButton {
+.registerButton {
     margin-top: 20px;
     cursor: pointer;
-    background-color: coral;
+    background-color: teal;
     border: none;
     color: white;
     border-radius: 10px;
     padding: 10px;
 }
 
-.loginRegisterButton {
+.registerLoginButton {
     position: absolute;
     top: 60px;
     right: 20px;
-    background-color: teal;
+    background-color: coral;
     cursor: pointer;
     border: none;
     padding: 10px;
